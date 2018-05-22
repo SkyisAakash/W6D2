@@ -1,0 +1,55 @@
+ul {
+  width: 900px;
+  list-style: none;
+  /* margin: auto; */
+  height: 200px;
+  border-bottom: 10px solid black;
+  padding: 0px;
+  margin: 25px;
+}
+
+li:last-child {
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 120px
+}
+
+li {
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 15px;
+  width: 300px
+}
+
+section {
+  margin: auto;
+  display: flex;
+  width: 1000px;
+}
+
+.disc1 {
+  display: block;
+  background-color: red;
+  height: 50px;
+  width: 90px;
+  border-radius: 25px;
+}
+
+.disc2 {
+  display: block;
+  background-color: red;
+  height: 50px;
+  width: 175px;
+  border-radius: 25px;
+}
+
+.disc3 {
+  display: block;
+  background-color: red;
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+}

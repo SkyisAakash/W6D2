@@ -1,0 +1,48 @@
+.ttt-grid {
+  display: flex;
+  width: 306px;
+  height: 306px;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+body {
+width: 100%
+}
+
+h1 {
+  text-align: center;
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  width: auto;
+}
+.ttt-grid li {
+
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: lightgrey;
+  font-size: 90px;
+
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  font-family: sans-serif;
+}
+
+.ttt-grid li:hover {
+  background-color: yellow;
+}
+
+.x {
+  color: blue;
+}
+
+.o {
+  color: red;
+}
