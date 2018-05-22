@@ -6,6 +6,12 @@ ul {
   border-bottom: 10px solid black;
   padding: 0px;
   margin: 25px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ul:hover {
+  border-bottom: 10px solid green;
 }
 
 li:last-child {
@@ -18,10 +24,11 @@ h1 {
 }
 
 li {
+  /* position: absolute; */
   text-align: center;
   vertical-align: bottom;
   margin-bottom: 15px;
-  width: 300px
+  width: 300px;
 }
 
 section {
